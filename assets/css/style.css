@@ -254,6 +254,9 @@ img {
   .fs_md_22 {
     font-size: 22px;
   }
+  .pt_sm_20{
+    padding-top: 20px;
+  }
 }
 
 
@@ -307,6 +310,7 @@ img {
 .pt_20 {
   padding-top: 20px;
 }
+
 
        
         .social-links a {
