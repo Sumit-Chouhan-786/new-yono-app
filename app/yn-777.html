@@ -676,15 +676,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
-    <script>
-      kofiWidgetOverlay.draw("mohamedghulam", {
-        type: "floating-chat",
-        "floating-chat.donateButton.text": "Support me",
-        "floating-chat.donateButton.background-color": "#323842",
-        "floating-chat.donateButton.text-color": "#fff",
-      });
-    </script>
     <script src="/assets/js/index.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
@@ -726,27 +717,6 @@
         document
           .getElementById("myInput")
           .addEventListener("keyup", filterList);
-      });
-    </script>
-    <!-- faq js -->
-    <script>
-      let question = document.querySelectorAll(".question");
-
-      question.forEach((question) => {
-        question.addEventListener("click", (event) => {
-          const active = document.querySelector(".question.active");
-          if (active && active !== question) {
-            active.classList.toggle("active");
-            active.nextElementSibling.style.maxHeight = 0;
-          }
-          question.classList.toggle("active");
-          const answer = question.nextElementSibling;
-          if (question.classList.contains("active")) {
-            answer.style.maxHeight = answer.scrollHeight + "px";
-          } else {
-            answer.style.maxHeight = 0;
-          }
-        });
       });
     </script>
   </body>
