@@ -101,3 +101,20 @@ jQuery(document).ready(function () {
     jQuery(this).toggleClass("inactive active");
   });
 });
+
+
+// share content     
+            function shareContent() {
+                window.location.hostname;
+                var t = document.querySelector("meta[name=description]")
+                  , e = t ? t.getAttribute("content") : ""
+                  , n = document.title + "\n\nAllYonoApp.in" + (e ? " - " + e : "") + "\n\xbb ";
+                navigator.share ? navigator.share({
+                    title: document.title,
+                    text: n,
+                    url: window.location.href
+                }).then( () => {
+                    console.log("Thanks for sharing!")
+                }
+                ).catch(console.error) : alert("Web Share API is not supported in your browser.")
+            }
