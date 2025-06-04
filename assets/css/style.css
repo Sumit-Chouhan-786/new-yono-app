@@ -359,9 +359,9 @@ img {
   .common_btn {
       display: block;
   border-radius: 100px;
-  padding: 4px 20px;
+  padding: 4px 18px;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
     background: url(https://imgbb.appxcel.in/ib/H4Dqct344k.png) top center / contain no-repeat;
 
 }
@@ -372,9 +372,9 @@ img {
 
   /* crown */
 .crown{
-    top: -30% !important;
-    right: 1% !important;
-    rotate: 39deg !important;
+    top: -31% !important;
+    right: 4% !important;
+    rotate: 35deg !important;
     z-index: 10 !important;
 }
   .telegram_parent div p {
