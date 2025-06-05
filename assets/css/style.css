@@ -60,7 +60,7 @@
 
 .responshiv_nav {
   background-color: white;
-  width: 250px;
+  width: 200px;
   min-height: 100vh;
   top: 0;
   left: 0;
@@ -71,6 +71,10 @@
   z-index: 11;
   /* Initially hidden */
   transition: left 0.3s ease;
+}
+
+.z_-1{
+  z-index: -1;
 }
 
 .responshiv_nav a {
