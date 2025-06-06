@@ -74,7 +74,7 @@
 }
 
 .z_-1{
-  z-index: -1;
+  z-index: 1;
 }
 
 .responshiv_nav a {
@@ -98,6 +98,7 @@
   display: none;
   /* Initially hidden */
   top: 0;
+  z-index: 2;
   left: 0;
 }
 
@@ -371,7 +372,7 @@ img {
 }
   .box button {
     font-size: 12px;
-    padding: 1px 8px;
+    padding: 6px 12px;
   }
 
   /* crown */
