@@ -108,7 +108,7 @@ jQuery(document).ready(function () {
                 window.location.hostname;
                 var t = document.querySelector("meta[name=description]")
                   , e = t ? t.getAttribute("content") : ""
-                  , n = document.title + "\n\nAllYonoApp.in" + (e ? " - " + e : "") + "\n\xbb ";
+                  , n = document.title + "\n\onlyyonoapp.com" + (e ? " - " + e : "") + "\n\xbb ";
                 navigator.share ? navigator.share({
                     title: document.title,
                     text: n,
